@@ -1,0 +1,21 @@
+node_modules/
+dist/
+build/
+.env
+.env.*
+!.env.example
+*.log
+
+# Runtime uploads and generated exports
+backend/uploads/*
+frontend/expense-tracker/uploads/*
+!backend/uploads/.gitkeep
+!frontend/expense-tracker/uploads/.gitkeep
+backend/*.xlsx
+frontend/package-lock.json
+
+# Local editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
